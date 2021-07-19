@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <title>Group Selection</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+
+  <body>
+    <div class="scene">
+      <div class="carousel">
+        <div class="card login carousel__cell">
+          <div class="header">Select Your Group</div>
+          
+          <form>
+            <input 
+              type="text" 
+              name="name" 
+              id="name" 
+              autocomplete="off" 
+              placeholder="First Name" /><br />
+
+            <input 
+              type="email" 
+              name="email" 
+              id="email" 
+              autocomplete="off"
+              placeholder="College Email" />
+
+            <div class="custom-select" id="group">
+              <div class="custom-select__trigger">
+                <span>Please select any group</span>
+              </div>
+
+              <div class="custom-select__options">
+                <span class="custom-option" id="oA">Group - A</span>
+                <span class="custom-option" id="oB">Group - B</span>
+                <span class="custom-option" id="oC">Group - C</span>
+                <span class="custom-option" id="oD">Group - D</span>
+                <span class="custom-option" id="oE">Group - E</span>
+              </div>
+            </div>
+
+            <br />
+            <input type="button" value="Submit">
+          </form>
+        </div>
+
+        <div class="carousel__cell">
+          <div class="card" id="A">
+            <svg>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+            </svg>
+            <h1>A</h1>
+            <h1>00</h1>
+
+            <div class="friends__wrapper">
+              <div class="friends"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel__cell">
+          <div class="card" id="B">
+            <svg>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+            </svg>
+            <h1>B</h1>
+            <h1>00</h1>
+
+            <div class="friends__wrapper">
+              <div class="friends"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel__cell">
+          <div class="card" id="C">
+            <svg>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+            </svg>
+            <h1>C</h1>
+            <h1>00</h1>
+
+            <div class="friends__wrapper">
+              <div class="friends"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel__cell">
+          <div class="card" id="D">
+            <svg>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+            </svg>
+            <h1>D</h1>
+            <h1>00</h1>
+
+            <div class="friends__wrapper">
+              <div class="friends"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel__cell">
+          <div class="card" id="E">
+            <svg>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+              <circle cx="50%" cy="50%" r="45%"></circle>
+            </svg>
+            <h1>E</h1>
+            <h1>00</h1>
+
+            <div class="friends__wrapper">
+              <div class="friends"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="controls prev"><i class="fas fa-chevron-circle-left"></i></button>
+      <button class="controls next"><i class="fas fa-chevron-circle-right"></i></button>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
