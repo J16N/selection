@@ -1,0 +1,124 @@
+{
+  "users" : {
+    "abhijitbhandary20" : {
+      "group" : "A",
+      "name" : "Abhijit"
+    },
+    "ananyadas20" : {
+      "group" : "D",
+      "name" : "Ananya"
+    },
+    "anubhabchattopadhyay20" : {
+      "group" : "B",
+      "name" : "Anubhab"
+    },
+    "anuragtiwari20" : {
+      "group" : "E",
+      "name" : "Anurag"
+    },
+    "anweshasahoo20" : {
+      "group" : "C",
+      "name" : "Anwesha"
+    },
+    "aritryasenapati20" : {
+      "group" : "A",
+      "name" : "Aritrya"
+    },
+    "ayushsingh20" : {
+      "group" : "B",
+      "name" : "Ayush"
+    },
+    "bishalsen20" : {
+      "group" : "B",
+      "name" : "Bishal"
+    },
+    "ishitaroy20" : {
+      "group" : "A",
+      "name" : "Ishita"
+    },
+    "jishanbhattacharya20" : {
+      "group" : "A",
+      "name" : "Jishan"
+    },
+    "joydeeproy20" : {
+      "group" : "B",
+      "name" : "Joydeep"
+    },
+    "manjisthaghosal20" : {
+      "group" : "A",
+      "name" : "Manjistha"
+    },
+    "mdhasnainreza20" : {
+      "group" : "A",
+      "name" : "Hasnain"
+    },
+    "mdsufyankhan20" : {
+      "group" : "A",
+      "name" : "Sufyan"
+    },
+    "meghasingh20" : {
+      "group" : "D",
+      "name" : "Megha"
+    },
+    "nilanjanroy20" : {
+      "group" : "B",
+      "name" : "Nilanjan"
+    },
+    "nilayansamanta20" : {
+      "group" : "B",
+      "name" : "Nilayan"
+    },
+    "prahladmondal20" : {
+      "group" : "B",
+      "name" : "Prahlad"
+    },
+    "prasunkrmondal20" : {
+      "group" : "A",
+      "name" : "Prasun"
+    },
+    "prithwishkundu20" : {
+      "group" : "B",
+      "name" : "Prithwish"
+    },
+    "pubalikar20" : {
+      "group" : "B",
+      "name" : "Pubali"
+    },
+    "rajibsantra20" : {
+      "group" : "A",
+      "name" : "Rajib"
+    },
+    "riddhimanghosh20" : {
+      "group" : "D",
+      "name" : "Riddhiman"
+    },
+    "ritwickghosh20" : {
+      "group" : "A",
+      "name" : "Ritwick"
+    },
+    "rwiteshbera20" : {
+      "group" : "A",
+      "name" : "Rwitesh"
+    },
+    "samannwaysil20" : {
+      "group" : "A",
+      "name" : "Samannway"
+    },
+    "sankalitaghosh20" : {
+      "group" : "B",
+      "name" : "Sankalita"
+    },
+    "sayandeepghatak20" : {
+      "group" : "B",
+      "name" : "Sayandeep"
+    },
+    "sayandey20" : {
+      "group" : "A",
+      "name" : "Sayan"
+    },
+    "sumitgupta20" : {
+      "group" : "D",
+      "name" : "Sumit"
+    }
+  }
+}
