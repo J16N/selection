@@ -1,2 +1,2 @@
-# selection
-A nice carousel team selection website.
+# Selection
+A nice team selection website with carousel.
